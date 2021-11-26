@@ -11,5 +11,9 @@ const p_two = new Person('Ritiki', 'Pandey','Gorakhpur, UP');
 const p_three = new Person('Kajal', 'Kumari','Madhubani, Bihar');
 
 console.log(p_one);
+console.log(p_one.firstName);
+console.log(p_one.lastName);
+console.log(p_one.officeAddress);
+
 console.log(p_two);
 console.log(p_three);
